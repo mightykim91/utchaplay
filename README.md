@@ -60,45 +60,7 @@
 
 
 
-#### 4. REST API 소개
 
-- 영화관련
-
-  <b>전체 영화 목록 출력</b>
-
-  ##### Request
-
-  ```
-  GET /movies/
-  ```
-
-  
-
-  <b>장르별 영화 출력</b>
-
-  ##### Request
-
-  ```
-  GET /movies/{genre pk}/
-  ```
-
-  
-
-  <b>각 영화 정보에 달린 댓글 출력</b>
-
-  ##### Request
-
-  ```
-  GET /movies/get_comments/{movie_pk}/
-  ```
-
-  
-
-  
-
-  
-
-  
 
 #### 4. 기능 소개 및 구현 과정
 
